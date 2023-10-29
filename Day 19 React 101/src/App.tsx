@@ -2,7 +2,7 @@ import Heading from "./components/heading.tsx"
 import Section from "./components/Section.tsx"
 import Counter from "./components/Counter.tsx"
 import List from "./components/List.tsx"
-import Dashboard from "./components/dashboard.tsx"
+// import Dashboard from "./components/dashboard.tsx"
 import Login from "./components/Login.tsx"
 import { useState } from "react";
 
