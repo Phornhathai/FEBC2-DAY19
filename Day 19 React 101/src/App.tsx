@@ -1,7 +1,7 @@
-import Heading from "./components/heading.tsx"
-import Section from "./components/Section.tsx"
-import Counter from "./components/Counter.tsx"
-import List from "./components/List.tsx"
+import MyForm from "./components/MyForm.tsx";
+import Dashboard from "./components/Dashboard.tsx"
+import { useForm } from 'react-hook-form'
+
 // import Dashboard from "./components/dashboard.tsx"
 import Login from "./components/Login.tsx"
 import { useState } from "react";
@@ -12,10 +12,11 @@ function App() {
   // const [count, setCount] = useState<number>(1);
   let isLogin : boolean = false;
 
+ 
   if(isLogin){
     return <Dashboard/>
   }else{
-    return <Login/>
+    return <MyForm/>
   }
   // return (<>
   //   <List items ={["🌟 Star "," 🍴 fork ","🔥 Fire"]} render={(item) => <b>{item}</b>}></List>
